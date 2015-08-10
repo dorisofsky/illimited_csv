@@ -4,9 +4,7 @@ $(document).ready(function() {
   
 function drawTaiwan(){
 
-	dataPath = '/illimited_csv/';
-	dataFile = 'd3demoData141011.csv';
-	dataUrl = dataPath + dataFile;
+	dataUrl = "http://dorisofsky.github.io/illimited_csv/d3demoData141011.csv";
 	//定義SVG的大小
 	d3.csv(dataUrl, function(data){
 		console.debug(JSON.stringify(data));
