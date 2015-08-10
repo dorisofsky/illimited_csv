@@ -1,8 +1,8 @@
-	dataPath = "http://dorisofsky.github.io/illimited_csv/";
+/*	dataPath = "http://dorisofsky.github.io/illimited_csv/";
 	dataFile = "d3demoData141011.csv";
-	dataUrl = dataPath + dataFile;
+	dataUrl = dataPath + dataFile;*/
 	//定義SVG的大小
-	d3.csv(dataUrl, function(data){
+	d3.csv("http://dorisofsky.github.io/illimited_csv/d3demoData141011.csv", function(data){
 		console.debug(JSON.stringify(data));
 		dataset = data;
 
