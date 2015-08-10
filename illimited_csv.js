@@ -1,3 +1,9 @@
+$(document).ready(function() {
+    drawIll_csv()
+   });
+  
+function drawIll_csv(){
+
 /*	dataPath = "http://dorisofsky.github.io/illimited_csv/";
 	dataFile = "d3demoData141011.csv";
 	dataUrl = dataPath + dataFile;*/
@@ -79,3 +85,4 @@
 		});
 
 	});
+}
