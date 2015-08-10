@@ -1,9 +1,3 @@
-$(document).ready(function() {
-    drawTaiwan()
-   });
-  
-function drawTaiwan(){
-
 	dataPath = 'http://dorisofsky.github.io/illimited_csv/';
 	dataFile = 'd3demoData141011.csv';
 	dataUrl = dataPath + dataFile;
@@ -85,4 +79,3 @@ function drawTaiwan(){
 		});
 
 	});
-}
